@@ -1,0 +1,98 @@
+nlu:
+- intent: greet
+  examples: |
+    - Hallo
+    - Hallo Bot
+    - Guten Tag!
+    - Guten Morgen
+    - Hallo nochmal
+    - Hallo Leute
+    - Hallo Herr
+    - Hi, Kumpel!
+    - Schöne Grüße
+    - Hallo zusammen
+    - Hallo ist da jemand
+    - Hallo Roboter
+    - Wer bist du?
+    - Was geht
+    - Wie geht's?
+    - Grüß Gott!
+    - Guten Abend!
+
+- intent: goodbye
+  examples: |
+    - Tschüss          
+    - Auf Wiedersehen
+    - Bis später
+    - Tschüss Bot
+    - Auf Wiedersehen Freund
+    - Tschüss für heute
+    - bis später
+    - muss gehen
+    - Wir sehen uns
+    - Tschüss, schönen Tag noch
+    - Bis später Alligator
+    - Wir werden bald sprechen
+    - Ende
+    - Fertig
+
+- intent: thanks
+  examples: |
+    - Danke
+    - Danke schön
+    - Danke sehr
+    - Vielen Dank
+    - Tausend Dank
+    - Danke vielmals
+    - Vergelt’s Gott
+    - Sehr aufmerksam
+    - Ich bin dir dankbar
+    - Ich sage dir vielen Dank
+    - Danke, gleichfalls
+    - Ich danke Ihnen
+    - Ich danke dir
+    - Ich möchte mich recht herzlich bedanken
+    - Vielen Dank im Voraus
+
+- intent: affirm
+  examples: |
+    - Ja
+    - ja sicher
+    - Absolut
+    - ja Ja Ja
+    - auf jeden Fall
+    - ja, tat es
+
+- intent: deny
+  examples: |
+    - Nein
+    - noch nie
+    - Das glaube ich nicht
+    - mag das nicht
+    - auf keinen Fall
+    - nicht wirklich
+
+- intent: lang_search
+  examples: |
+    - Ich möchte etwas über [Hindi] (language) wissen.
+    - Können Sie bitte [Spanisch] (language) suchen?
+    - Benötigen Sie weitere Informationen für [Französisch] (language)
+    - Lookup [gujrati] (language)
+    - Hilf mir, [urdu] (language) zu finden
+    - Kennen Sie [russisch] (language)
+    - Hilf mir bei der Suche nach [Italienisch] (language)
+    - Willst du etwas über [Deutsch] lernen (language)
+    - Was ist [Arabisch] (language)
+    - Ich wollte mehr über [Griechisch] (language) erfahren.
+    - Was kannst du mir über [Tamil] (language) erzählen?
+    - Hilf mir, mehr über [konkani] (language) zu erfahren.
+    - Bitte suchen Sie nach [marathi] (language)?
+    - Benötigen Sie Ressourcen zu [Französisch] (language)
+    - Kannst du etwas über [gujrati] (language) erzählen?
+    - Was weißt du über [thailändisch] (language)
+    - Wirst du nach [russisch] (language) suchen?
+    - Hilf mir beim Erlernen von [Italienisch] (language)
+    - Bitte geben Sie weitere Informationen zu [Deutsch] (language)
+    - Zeig mir Ergebnisse für [türkisch] (language)
+    - Erfahren Sie mehr über [Griechisch] (language)
+    - Hilf mir nach [telegu] (language) zu suchen

@@ -1,0 +1,68 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - affirm
+  - deny
+  - lang_search
+entities:
+  - language
+
+responses:
+  utter_greet:
+  - text: |
+      Hallo! Womit kann ich Ihnen behilflich sein?
+  - text: |
+      Hallo!
+  - text: |
+      Hallo! Was kann ich für Dich tun? 
+  - text: |
+      Hallo, wie kann ich Ihnen helfen?
+
+  utter_goodbye:
+  - text: |
+      Tschüss
+  - text: |
+      Es war schön, mit Ihnen zu sprechen.
+  - text: |
+      Wir sehen uns wieder!
+  - text: |
+      Tschüss für heute !!
+
+  utter_thanks:
+  - text: |
+      Schön, dass ich helfen konnte!
+  - text: |
+      Dankeschön!
+  - text: |
+      Freue mich zu helfen :)  
+
+  utter_did_that_help:
+  - text: |
+      Hat dir das geholfen? 
+
+  utter_sorry:
+  - text: |
+      Derzeit haben wir keine Informationen zu dieser Sprache! Es tut uns leid :( 
+  - text: |
+      Entschuldigung, ich werde meine Suche beim nächsten Mal verbessern !!  
+
+    
+actions:
+- '...'
+- utter_greet
+- utter_goodbye
+- action_lang_search
+- utter_thanks
+- utter_did_that_help
+- utter_sorry
+
+# - utter_subscribed
+# forms:
+#   newsletter_form:
+#     email:
+#     - type: from_text
